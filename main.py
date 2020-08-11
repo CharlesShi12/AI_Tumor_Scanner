@@ -3,7 +3,6 @@ from PIL import Image
 from keras.models import load_model
 from keras.preprocessing import image
 import keras.preprocessing
-import matplotlib.pyplot as plt
 import numpy as np
 import os
 
