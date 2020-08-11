@@ -5,12 +5,13 @@ I collaborated with a team of developers to create a Convolutional Neural Networ
 We extracted features, preserved the spatial relationship between pixels, and captured the local dependencies of the input image to generate distinct feature maps for the training process. We then employed MaxPooling in 2D to define a spatial neighborhood, normalize the dimensionality of the dataset, and avoid overfitting.
 Finally, we applied a multi-layer perceptron that uses a softmax activation function in the output layer to connect all the neurons in the CNN. The output from these neurons and layers represent high-level features of the input image, which are used to categorize the input image into various classes based on the training dataset. 
 
-## Screenshots
+## Demonstration
+[![Image from Gyazo](https://i.gyazo.com/fc7cf5d86bec18f70f60d216b42d7a3c.gif)](https://gyazo.com/fc7cf5d86bec18f70f60d216b42d7a3c)
 
 ## Tech/Framework used
 Built with 
 * Python
-* TenserFlow
+* TensorFlow
 * Keras
 * Numpy
 * Streamlit
@@ -24,7 +25,15 @@ Run this command in your terminal:
 ```
 git clone https://github.com/CharlesShi12/ImageFilters.git
 ```
-Import the folder into your respected IDE. Open your terminal, navigate to this github repository folder, and run the following command:
+Import the folder into your respected IDE. 
+Then download the necessary libraries and frameworks. For this project you will need:
+* Streamlit
+* Keras
+* Tensorflow
+* Numpy
+* Pillow
+
+Open your terminal, navigate to this github repository folder, and run the following command:
 ```
 streamlit run main.py
 ```
