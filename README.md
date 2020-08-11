@@ -2,7 +2,7 @@
 I collaborated with a team of developers to create a Convolutional Neural Network (CNN) that is capable of identifying tumors from brain MRI Scans. We used data augmentation to train it with over 7,000 images. We tested and modified the neural network to obtain a final average accuracy of 95%. 
 
 ## General Technical Description
-We extracted features, preserved the spatial relationship between pixels, and captured the local dependencies of the input image to generate distinct feature maps for the training process. We then employed MaxPooling in 2D to define a spatial neighborhood, normalize the dimensionality of the dataset, and avoid overfitting.
+To begin, we extracted features, preserved the spatial relationship between pixels, and captured the local dependencies of the input image to generate distinct feature maps for the training process. We then employed MaxPooling in 2D to define a spatial neighborhood, normalize the dimensionality of the dataset, and avoid overfitting.
 Finally, we applied a multi-layer perceptron that uses a softmax activation function in the output layer to connect all the neurons in the CNN. The output from these neurons and layers represent high-level features of the input image, which are used to categorize the input image into various classes based on the training dataset. 
 
 ## Demonstration
