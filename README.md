@@ -1,5 +1,5 @@
 ## Medical Scanner
-I collaborated with a team of developers to create a Convolutional Neural Network (CNN) that is capable of identifying tumors from brain MRI Scans. We used data augmentation to train it with over 7,000 images. We tested and modified the neural network to obtain a final average accuracy of 95%. 
+I collaborated with a team of developers to create a Convolutional Neural Network (CNN) that is capable of identifying tumors from brain MRI Scans from Kaggle (https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection). We used data augmentation to train it with over 7,000 images. We tested and modified the neural network to obtain a final average accuracy of 95%. 
 
 ## General Technical Description
 To begin, we extracted features, preserved the spatial relationship between pixels, and captured the local dependencies of the input image to generate distinct feature maps for the training process. We then employed MaxPooling in 2D to define a spatial neighborhood, normalize the dimensionality of the dataset, and avoid overfitting.
