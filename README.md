@@ -6,6 +6,8 @@ To begin, we extracted features, preserved the spatial relationship between pixe
 Finally, we applied a multi-layer perceptron that uses a softmax activation function in the output layer to connect all the neurons in the CNN. The output from these neurons and layers represent high-level features of the input image, which are used to categorize the input image into various classes based on the training dataset. 
 
 ## Demonstration
+Use the image_examples folder to test out some sample brain MRI scans. 
+
 [![GIF #1](https://i.gyazo.com/fc7cf5d86bec18f70f60d216b42d7a3c.gif)](https://gyazo.com/fc7cf5d86bec18f70f60d216b42d7a3c)
 
 ## Tech/Framework used
