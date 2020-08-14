@@ -20,7 +20,7 @@ Built with
 
 ## Features
 * Users are able to input an image via Streamlit
-* Streamlit application outputs whether your brain MRI scan has a tumor or not.
+* Streamlit application outputs whether your brain MRI scan has a tumor or not
 
 ## Installation
 Run this command in your terminal: 
