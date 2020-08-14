@@ -26,7 +26,7 @@ if uploaded_file is not None:
 
     pred = model.predict(img_tensor)
 
-    if pred>0.9:
+    if pred>=0.5:
         st.write('Your image has been classified. There is no visible tumor in your MRI scan.')
     if pred<0.05:
         st.write('Your image has been classified. Your MRI scan contains a tumor.')
