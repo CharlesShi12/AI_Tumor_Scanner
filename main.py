@@ -28,5 +28,5 @@ if uploaded_file is not None:
 
     if pred>=0.5:
         st.write('Your image has been classified. There is no visible tumor in your MRI scan.')
-    if pred<0.05:
+    if pred<0.5:
         st.write('Your image has been classified. Your MRI scan contains a tumor.')
