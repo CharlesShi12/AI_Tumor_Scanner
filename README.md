@@ -8,7 +8,7 @@ Finally, we applied a multi-layer perceptron that uses a softmax activation func
 ## Demonstration
 Use the image_examples folder to test out some sample brain MRI scans. 
 
-[![GIF #1](https://i.gyazo.com/fc7cf5d86bec18f70f60d216b42d7a3c.gif)]
+![GIF #1](https://i.gyazo.com/fc7cf5d86bec18f70f60d216b42d7a3c.gif)
 
 ## Tech/Framework used
 Built with 
