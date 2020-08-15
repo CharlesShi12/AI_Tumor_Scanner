@@ -6,8 +6,7 @@ import keras.preprocessing
 import numpy as np
 import os
 
-# creates web application with user interface using streamlit
-st.set_option('deprecation.showfileUploaderEncoding', False)
+# creating web application with user interface using streamlit
 
 st.title("Apollo")
 
