@@ -10,6 +10,8 @@ Use the image_examples folder to test out some sample brain MRI scans.
 
 ![GIF #1](https://i.gyazo.com/fc7cf5d86bec18f70f60d216b42d7a3c.gif)
 
+Detailed demonstration here: https://youtu.be/PGBWf_UXJOY. 
+
 ## Tech/Framework used
 Built with 
 * Python
