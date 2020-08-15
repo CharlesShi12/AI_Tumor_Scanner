@@ -25,7 +25,7 @@ Built with
 ## Installation
 Run this command in your terminal: 
 ```
-git clone https://github.com/CharlesShi12/ImageFilters.git
+git clone https://github.com/CharlesShi12/Medical_Scanner.git
 ```
 Import the folder into your respected IDE. 
 Then download the necessary libraries and frameworks. For this project you will need:
