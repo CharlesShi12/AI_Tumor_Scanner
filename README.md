@@ -27,7 +27,7 @@ Run this command in your terminal:
 ```
 git clone https://github.com/CharlesShi12/Medical_Scanner.git
 ```
-Import the folder into your respected IDE. 
+Import the folder into your respected IDE, and navigate to this github repository folder. 
 Then download the necessary libraries and frameworks. For this project you will need:
 * Streamlit
 * Keras
@@ -35,7 +35,7 @@ Then download the necessary libraries and frameworks. For this project you will 
 * Numpy
 * Pillow
 
-Open your terminal, navigate to this github repository folder, and run the following command:
+Open your terminal, and run the following command:
 ```
 streamlit run main.py
 ```
