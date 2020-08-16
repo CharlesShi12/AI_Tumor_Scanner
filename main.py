@@ -1,12 +1,10 @@
 import streamlit as st
 from PIL import Image
 from keras.models import load_model
-from keras.preprocessing import image
 import keras.preprocessing
 import numpy as np
-import os
 
-# creating web application with user interface using streamlit
+# creates web application with user interface using streamlit
 
 st.title("Apollo")
 
@@ -26,6 +24,7 @@ if uploaded_file is not None:
 
     pred = model.predict(img_tensor)
 
+    # checks if the classification is a tumor or not
     if pred>=0.5:
         st.write('Your image has been classified. There is no visible tumor in your MRI scan.')
     if pred<0.5:
