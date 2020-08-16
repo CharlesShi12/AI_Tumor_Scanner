@@ -1,14 +1,13 @@
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D
-from keras.layers import Activation, Dropout, Flatten, Dense
-from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
-from keras.layers import Input, Dense
-from keras.models import Model
-import os
+from keras.layers import Activation, Dropout, Flatten
+from keras.preprocessing.image import ImageDataGenerator
+from keras.layers import Dense
 
 
 # outputs 3d feature maps (height, width, features)
 model = Sequential()
+
 model.add(Conv2D(32, (3, 3), input_shape=(150, 150, 3), padding='same'))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2), data_format='channels_last'))
@@ -35,7 +34,7 @@ model.compile(loss='binary_crossentropy',
 
 batch_size = 16
 
-# augmentation configuration used for training
+# augmentation configuration used for training; rescaling images
 train_datagen = ImageDataGenerator(
         rescale=1./255,
         shear_range=0.1,
