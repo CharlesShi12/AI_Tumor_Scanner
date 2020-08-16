@@ -1,5 +1,6 @@
 import os
 
+# renames and identifies each image in the no_tumor and tumor directories
 path = os.path.join(os.getcwd(), "Training")
 os.chdir(path)
 for child in os.listdir():
