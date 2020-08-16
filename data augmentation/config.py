@@ -24,7 +24,7 @@ for j in range (1, 156):
         if i > 30:
             break
 
-# augments each image in the has_tumor dataset
+# augments each image in the no_tumor dataset
 for j in range (1, 100):
     img = load_img(f'MRI_Scans/no_tumor/no_tumor_example_{str(j)}.jpg')
     x = img_to_array(img)
