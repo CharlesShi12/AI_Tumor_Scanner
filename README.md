@@ -27,7 +27,7 @@ Built with
 ## Installation
 Run this command in your terminal: 
 ```
-git clone https://github.com/CharlesShi12/Medical_Scanner.git
+git clone https://github.com/CharlesShi12/AI_Tumor_Scanner.git
 ```
 Import the folder into your respected IDE, and navigate to this github repository folder. 
 Then download the necessary libraries and frameworks. For this project you will need:
