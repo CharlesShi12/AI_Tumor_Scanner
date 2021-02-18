@@ -43,7 +43,6 @@ streamlit run main.py
 ```
 
 ## Credit
-Collaborators
 * Tejesh: https://github.com/tejesh-ch
 * Rohan: https://github.com/rohanshiva
 * Amogh: https://github.com/amogh1155
